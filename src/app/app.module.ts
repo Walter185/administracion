@@ -7,14 +7,20 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { CommonModule } from '@angular/common';
 import { authInterceptorProviders } from './_helpers/auth.interceptor';
-import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { HomeComponent } from './home/home.component';
+import { ProductComponent } from './components/product/product.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
+    RegisterComponent,
     HomeComponent,
-    RegisterComponent
+    MenuComponent,
+    ProductComponent
+
   ],
   imports: [
     BrowserModule,

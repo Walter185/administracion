@@ -64,7 +64,7 @@ background-image: url(../../assets/images/banner.jpg); background-repeat: repeat
         <div class="form-group">
           <button class="btn btn-primary btn-block" id="regis">Registrarse</button>
         </div>
-  
+        <small>Si ya tiene usuario por favor ingrese <a href="login">aqui</a></small>
         <div class="alert alert-warning" *ngIf="f.submitted && isSignUpFailed">
           Signup failed!<br />{{ errorMessage }}
         </div>

@@ -14,7 +14,7 @@ export class AuthService {
 
   private apiServeUrl='http://localhost:8080';
 
-  public redirectUrl: string | undefined;
+  public redirectUrl!: string;
   router: any;
   loggedIn$ = new BehaviorSubject(false);
 
